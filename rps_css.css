@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:#000000;
+    padding:20px;
+    color:#ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size:20px;
+}
+body{
+    background-color:#262626;
+}
+.score-board{
+    text-align: center;
+    margin: 20px auto;
+    color:#ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 200px;
+    position: relative;
+    padding:20px;
+    font-size:30px;
+    font-weight: bold;
+}
+.badges{
+    background-color:#ff0000;
+    width:85px;
+    font-size: 12px;
+    font-weight: bold;
+    padding:2px;
+}
+#user-badge{
+    position: absolute;
+    top:25px;
+    left:-40px;
+}
+#computer-badge{
+    position: absolute;
+    top:25px;
+    right:-40px;
+}
+.result{
+    text-align:center;
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 25px 0px;
+}
+.choice-set{
+    text-align:center;
+}
+.choice{
+    display: inline-block;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding:20px;
+    margin: 20px 20px;
+    transition: all 0.3s ease;
+}
+.choice:hover{
+    background-color: #bfbfbf;
+    cursor: pointer;
+}
+
+#action{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
