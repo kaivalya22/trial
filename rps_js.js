@@ -10,6 +10,9 @@ const resultDisplay_dom = document.getElementsByClassName("result");
 function getComputerChoice(){
     const choices=["r","p","s"];
     const randomIndex= Math.floor(Math.random()*3);
+    Rock_dom.style.borderColor = "white";
+    Paper_dom.style.borderColor = "white";
+    Scissor_dom.style.borderColor = "white";
     return choices[randomIndex];
 }
 
